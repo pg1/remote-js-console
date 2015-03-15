@@ -7,7 +7,8 @@ Remote js console is a simple microservice written in golang which can collect a
 
 ~~~~~
 git clone https://github.com/pg1/remote-js-console.git
-go get
+cd remote-js-console
+go get ./...
 go build
 ~~~~~
 
