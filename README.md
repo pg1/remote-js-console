@@ -6,7 +6,7 @@ Remote js console is a simple microservice written in golang which can collect a
 ## Install
 
 ~~~~~
-git clone 
+git clone https://github.com/pg1/remote-js-console.git
 go get
 go build
 ~~~~~
@@ -45,3 +45,6 @@ nohup ./remote-js-console > /dev/null &
 ~~~~~
 
 Or if you want to start on boot create /etc/init/remotejs.conf. Check upstart docs for more info.
+
+
+You can access the admin panel at http://localhost:8080/admin/
